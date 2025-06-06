@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="DataTable/UIForm" LoadType="1" Packed="False" />
+      <Resource Name="UI/UIForms/UserInfo" LoadType="1" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="1348e66b62200e8479ef8a47cfbf3ee0" ResourceName="DataTable/UIForm" />
+      <Asset Guid="36a86de1d35ef4f44afe00b6d8c53700" ResourceName="DataTable/UIForm" />
+      <Asset Guid="88986118c0a9d634fa0c32cfe4515603" ResourceName="UI/UIForms/UserInfo" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>
