@@ -1203,7 +1203,6 @@ GameObject:
   m_Component:
   - component: {fileID: 631394270488457417}
   - component: {fileID: 6687045895055264899}
-  - component: {fileID: 3750050468962631386}
   m_Layer: 5
   m_Name: UserInfo
   m_TagString: Untagged
@@ -1253,25 +1252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd749573fbda9eb4abaa14a59be9dee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3750050468962631386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5075529006055185864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd1006af3d5efa740b740ab2bd31bbc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiConfigTable: {fileID: 0}
-  settingButton: {fileID: 7249141723385456265}
-  startGameButton: {fileID: 7576017785178610755}
-  leaderboardButton: {fileID: 1134924969831385261}
-  storeButton: {fileID: 3888054380538849532}
-  TalentButton: {fileID: 5077631314804377325}
-  quitButton: {fileID: 1001186282672186054}
 --- !u!1 &5306196054633771544
 GameObject:
   m_ObjectHideFlags: 0

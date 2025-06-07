@@ -209,7 +209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AvailableProcedureTypeNames:
-  - InIt_PlayerData
   - ProcedureCheckVersion
   - ProcedureInitResources
   - ProcedurePreload
@@ -217,7 +216,6 @@ MonoBehaviour:
   - ProcedureUpdateResources
   - ProcedureVerifyResources
   - ProcedureVXLogin
-  - ResourceUpdateComponent
   m_EntranceProcedureTypeName: ProcedureSplash
 --- !u!1 &281075685
 GameObject:
@@ -321,7 +319,6 @@ GameObject:
   - component: {fileID: 442422283}
   - component: {fileID: 442422282}
   - component: {fileID: 442422281}
-  - component: {fileID: 442422280}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -349,20 +346,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &442422280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442422278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 713cd617e636f8446b143027d25e6bcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  versionFileAsset: {fileID: 0}
-  m_BuildInfoTextAsset: {fileID: 0}
 --- !u!114 &442422281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +390,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 442422280}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Temp, Assembly-CSharp
         m_MethodName: tem
         m_Mode: 1
@@ -589,7 +572,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3750050468962631386, guid: 88986118c0a9d634fa0c32cfe4515603, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
